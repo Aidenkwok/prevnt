@@ -1,0 +1,16 @@
+.row1{
+	margin-top: 6em
+}
+
+.center input, .center input:focus, .center input:active{
+	background-color: red;
+	border: 2.5px solid white;
+	background-color: #2887c8; 
+	padding-left:10px;
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	font-size:24px;
+	color: white;
+	text-align: center;
+	box-shadow: none;
+}

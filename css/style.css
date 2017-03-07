@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0; padding:0;}
+#reg-form
+{
+	margin:100px auto;
+	padding:25px;
+	width:65%;
+	background:#2887c8;
+
+}
+fieldset
+{
+	padding:50px;
+	width:%;
+	margin: auto;
+	border:0;
+}
+input
+{
+	width:50%;
+	height:35px;
+	border: 2.5px solid white;
+	background-color: #2887c8; 
+	padding-left:10px;
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	font-size:24px;
+	color: white;
+	text-align: center;
+
+}
+span
+{
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	font-size:48px;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: white;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: white;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+body {
+	background-color: #2887c8;
+}
+
+.center{
+	display: flex;
+ 	justify-content: center;
+ 	margin-top: : 100px;
+}
+
+#test{
+	margin-bottom: 100px;
+}
+
+#title{
+	margin-bottom: 200px;
+}
+
+#example1 {
+width: 400px;
+border: medium #2887c8 dotted;
+}
+
+input[type=submit]{
+
+	-webkit-appearance: none;
+}
+
+.result{
+
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+
+}
+
+
+
+
+
+
+
+
