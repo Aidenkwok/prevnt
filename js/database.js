@@ -47,15 +47,15 @@ var database = [
 "no-reply@cc.yahoo-inc.com",
 "no-reply@mail.instagram.com",
 "reception@eusa.ed.ac.uk",
-"vimeo@email.vimeo.com",
-"vimeo@email.vimeo.com",
-"vimeo@email.vimeo.com",
-"vimeo@email.vimeo.com",
-"vimeo@email.vimeo.com",
-"vimeo@email.vimeo.com",
-"vimeo@email.vimeo.com",
-"vimeo@email.vimeo.com",
-
+"enews@email.tobycarvery.co.uk",
+"hello@monzoemail.com",
+"noreply@github.com",
+"info@peopleofprint.com",
+"news@ecom-theworks.co.uk",
+"support@email.secretescapes.com",
+"news@my.monoqi.co.uk",
+"uk@info.lastminute.com",
+"gigs@dice.fm",
 
 
 ]
