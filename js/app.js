@@ -17,7 +17,7 @@ $('#validate').on('input propertychange paste keypress',function() {
     }
 
     if (x == null || x ==""){
-        $(".result").text("paste in an email address");
+        $(".result").text("Paste your suspected scam email here");
         $(".result").css("color","white");
     }
 });
