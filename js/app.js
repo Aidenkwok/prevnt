@@ -4,7 +4,7 @@ $('#validate').on('input propertychange paste keypress',function() {
     var y = false;
 
     for (i = 0; i < database.length; i++) {
-        if (x == database[i]) {
+        if (x.includes(database[i])) {
             $(".result").text("this is a genuine email");
             $(".result").css("color","lightgreen");
             y = true;
