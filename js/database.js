@@ -68,4 +68,5 @@ var database = [
 "@icloud.com",
 "@rbs.co.uk",
 "@lloydsbanking.com",
+"@barclays.co.uk",
 ]
