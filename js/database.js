@@ -82,6 +82,7 @@ var database = [
 "@responsys.zoopla.co.uk",
 "@corethree.net",
 "@applausestore.com",
-"news@email.ucas.com",
-"nhs.net",
+"@news@email.ucas.com",
+"@nhs.net",
+"@nhsdigital.nhs.uk",
 ]
