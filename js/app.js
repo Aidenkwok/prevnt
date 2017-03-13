@@ -1,6 +1,6 @@
 $(document).foundation()
 $('#validate').on('input propertychange paste keypress',function() {
-    var x = document.getElementById("validate").value;
+    var x = document.getElementById("validate").value.toLowerCase();
     var y = false;
 
     for (i = 0; i < database.length; i++) {
