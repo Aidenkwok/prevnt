@@ -60,4 +60,12 @@ var database = [
 "@test1",
 "@asos.co.uk",
 "@santander.co.uk",
+"@hsbc.com",
+"@amazon.co.uk",
+"@hmrc.gsi.gov.uk",
+"@bankofscotland.co.uk",
+"@apple.com",
+"@icloud.com",
+"@rbs.co.uk",
+"@lloydsbanking.com",
 ]
