@@ -83,4 +83,5 @@ var database = [
 "@corethree.net",
 "@applausestore.com",
 "news@email.ucas.com",
+"nhs.net",
 ]
