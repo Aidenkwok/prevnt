@@ -85,4 +85,6 @@ var database = [
 "@news@email.ucas.com",
 "@nhs.net",
 "@nhsdigital.nhs.uk",
+"@amazon.com",
+"@amazon.lu",
 ]
