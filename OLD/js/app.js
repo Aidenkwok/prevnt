@@ -1,3 +1,4 @@
+$(document).foundation()
 $('#validate').on('input propertychange paste keypress',function() {
     var x = document.getElementById("validate").value.toLowerCase();
     var y = false;
@@ -7,7 +8,7 @@ $('#validate').on('input propertychange paste keypress',function() {
             $(".result").text("this is a genuine email");
             $(".result").css("color","lightgreen");
             y = true;
-        }
+        }        
     }
 
     if (y == false){
