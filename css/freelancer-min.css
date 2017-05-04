@@ -69,7 +69,7 @@ hr.star-primary:after {
 
 header {
   text-align: center;
-  background: #FFFFFF;
+  background: #2F97C1;
   color: black; }
 
 header .container {
@@ -101,7 +101,7 @@ header .intro-text .skills {
     font-size: 1.75em; } }
 
 .navbar-custom {
-  background: #2F97C1;
+  background: #FFFFFF;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -131,13 +131,13 @@ header .intro-text .skills {
 
 .navbar-custom .navbar-nav li.active a {
   color: black;
-  background: #b6def0; }
+  background: #2F97C1; }
 
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: black;
-  background: #b6def0; }
+  background: #2F97C1; }
 
 .navbar-custom .navbar-toggle {
   color: black;
@@ -173,7 +173,7 @@ section h2 {
   font-size: 3em; }
 
 section.success {
-  background: #b6def0;
+  background: #4BA2B3;
   color: black; }
 
 @media (max-width: 767px) {
@@ -454,7 +454,7 @@ fieldset[disabled] .btn-success.active {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #FFFFFF;
+  background-color: #2F97C1;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -465,7 +465,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #FFFFFF;
+  background-color: #2F97C1;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
@@ -599,4 +599,52 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
-}
+
+
+#portfolio1 .portfolio-item {
+  margin: 0 0 15px;
+  right: 0; }
+
+#portfolio1 .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto; }
+
+#portfolio1 .portfolio-item .portfolio-link .caption {
+  background: rgba(24, 188, 156, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s; }
+
+#portfolio1 .portfolio-item .portfolio-link .caption:hover {
+  opacity: 1; }
+
+#portfolio1 .portfolio-item .portfolio-link .caption .caption-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: black; }
+
+#portfolio1 .portfolio-item .portfolio-link .caption .caption-content i {
+  margin-top: -12px; }
+
+#portfolio1 .portfolio-item .portfolio-link .caption .caption-content h3,
+#portfolio1 .portfolio-item .portfolio-link .caption .caption-content h4 {
+  margin: 0; }
+
+#portfolio1 * {
+  z-index: 2; }
+
+@media (min-width: 767px) {
+  #portfolio1 .portfolio-item {
+    margin: 0 0 30px; } }
+
